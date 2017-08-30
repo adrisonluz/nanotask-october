@@ -1,0 +1,6 @@
+plugin:
+    name: 'adrisonluz.nanotask::lang.plugin.name'
+    description: 'adrisonluz.nanotask::lang.plugin.description'
+    author: 'Adrison Luz'
+    icon: oc-icon-tasks
+    homepage: ''
