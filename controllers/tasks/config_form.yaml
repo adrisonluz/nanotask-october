@@ -1,0 +1,11 @@
+name: Tasks
+modelClass: AdrisonLuz\NanoTask\Models\Task
+form: $/adrisonluz/nanotask/models/task/fields.yaml
+defaultRedirect: adrisonluz/nanotask/tasks
+create:
+    redirect: 'adrisonluz/nanotask/tasks/update/:id'
+    redirectClose: adrisonluz/nanotask/tasks
+update:
+    redirect: adrisonluz/nanotask/tasks
+    redirectClose: adrisonluz/nanotask/tasks
+preview: {  }

@@ -1,0 +1,30 @@
+columns:
+    task_id:
+        label: ID
+        type: number
+        sortable: true
+    titulo:
+        label: Título
+        type: text
+        searchable: true
+        sortable: true
+    slug:
+        label: Slug
+        type: text
+        searchable: true
+        sortable: true
+    due:
+        label: DUE
+        type: date
+        searchable: true
+        sortable: true
+    status:
+        label: Status
+        type: number
+        searchable: true
+        sortable: true
+    prioridade:
+        label: Prioridade
+        type: number
+        searchable: true
+        sortable: true

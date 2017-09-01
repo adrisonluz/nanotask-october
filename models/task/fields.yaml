@@ -1,0 +1,80 @@
+fields:
+    titulo:
+        label: Título
+        oc.commentPosition: ''
+        span: left
+        placeholder: ''
+        default: ''
+        cssClass: ''
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: right
+        placeholder: ''
+        default: ''
+        cssClass: ''
+        required: 1
+        defaultFrom: titulo
+        preset:
+            field: titulo
+            type: slug
+        type: text
+    responsaveis:
+        label: Responsáveis
+        oc.commentPosition: ''
+        span: auto
+        placeholder: ''
+        default: ''
+        cssClass: ''
+        required: 1
+        type: dropdown
+    atribuidos:
+        label: Atribuídos
+        oc.commentPosition: ''
+        span: auto
+        placeholder: ''
+        default: ''
+        cssClass: ''
+        required: 1
+        type: dropdown
+    due:
+        label: 'Data de entrega'
+        oc.commentPosition: ''
+        mode: date
+        span: left
+        placeholder: ''
+        type: datepicker
+    prioridade:
+        label: Prioridade
+        oc.commentPosition: ''
+        options:
+            - Baixa
+            - Normal
+            - Alta
+            - Crítica
+            - Impeditiva
+        span: right
+        placeholder: ''
+        default: 1
+        cssClass: ''
+        required: 1
+        type: dropdown
+    descricao:
+        label: Descrição
+        size: small
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: textarea
+    anexos:
+        label: Anexos
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

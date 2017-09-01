@@ -4,3 +4,25 @@ plugin:
     author: 'Adrison Luz'
     icon: oc-icon-tasks
     homepage: ''
+permissions:
+    nanotasks_geral:
+        tab: 'Nano Tasks'
+        label: 'Nano Tasks | Geral'
+    nanotasks_tasks:
+        tab: 'Nano Tasks'
+        label: 'Nano Tasks | Tasks'
+navigation:
+    geral:
+        label: 'adrisonluz.nanotask::lang.plugin.name'
+        url: adrisonluz/nanotask/tasks
+        icon: icon-tasks
+        permissions:
+            - nanotasks_geral
+        order: '20'
+        sideMenu:
+            tasks:
+                label: Tasks
+                url: adrisonluz/nanotask/tasks
+                icon: icon-list-alt
+                permissions:
+                    - nanotasks_tasks
